@@ -1,7 +1,7 @@
 openapi: '3.0.0'
 info:
-  version: '1.0.3'
-  title: 'Customers'
+  version: '1.0.4'
+  title: 'Customers Service'
   description: Create or check status of customer(s)
 
 servers:
@@ -14,14 +14,40 @@ paths:
       responses:
         '200':
           description: The current list of customers using pagination
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
         '400':
           description: Malformed request body
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
         '401':
           description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
         '403':
           description: Unauthorized access
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
         '500':
           description: Internal server error 
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '503':
+          description: General error 
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
             
   /customers/{customerId}:
     parameters:
