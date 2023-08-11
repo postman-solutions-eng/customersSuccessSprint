@@ -1,0 +1,111 @@
+openapi: '3.0.0'
+info:
+  version: '1.0.3'
+  title: 'Customers'
+  description: Create or check status of customer(s)
+
+servers:
+  - url: https://ef10ec23-f5c6-4db6-9673-3056fefd5ccb.mock.pstmn.io
+
+paths:
+  /customers:
+    get: 
+      summary: Provide a full list of users while using pagination
+      responses:
+        '200':
+          description: The current list of customers using pagination
+        '400':
+          description: Malformed request body
+        '401':
+          description: Invalid credentials
+        '403':
+          description: Unauthorized access
+        '500':
+          description: Internal server error 
+            
+  /customers/{customerId}:
+    parameters:
+      - name: customerId
+        description: The unique identifier of the customer
+        in: path
+        required: true
+        schema:
+          $ref: '#/components/schemas/CustomerId'
+    get:
+      summary: Read a customer
+      responses:
+        '200':
+          description: The customer corresponding to the provided `customerId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        404:
+          description: No spacecraft found for the provided `customerId`
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        500:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+components:
+  schemas:
+    CustomerId:
+      description: The unique identifier of a customer
+      type: string
+    Spacecraft:
+      type: object
+      required:
+        - id
+        - name
+        - type
+      properties:
+        id:
+          $ref: '#/components/schemas/CustomerId'
+        name:
+          type: string
+        type:
+          type: string
+          enum:
+            - spendLevel
+            - type
+            - territory
+            - country
+            - status
+        description:
+          type: string
+    Customers:
+      description: Full list of customers using pagination
+      type: object
+      properties:
+        id:
+          $ref: '#/components/schemas/Customers'
+        name:
+          type: string
+        type:
+          type: string
+          enum:
+            - spendLevel
+            - type
+            - territory
+            - country
+            - status
+    Error:
+      type: object
+      required:
+        - message
+      properties:
+        message:
+          description: A human readable error message
+          type: string
+  securitySchemes:
+    ApiKey:
+      type: apiKey
+      in: header
+      name: X-Api-Key
+security:
+  - ApiKey: []
