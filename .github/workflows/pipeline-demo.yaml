@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      ### === ### ADD POSTMAN CLI SCRIPT TO EXISTING SCRIPT 
+      ### === ### ADD POSTMAN CLI SCRIPT TO EXISTING SCRIPT ### === ###
       - name: Install Postman CLI
         run: |
           curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
