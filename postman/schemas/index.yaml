@@ -5,7 +5,8 @@ info:
   description: Create or check status of customer(s)
 
 servers:
-  - url: https://ef10ec23-f5c6-4db6-9673-3056fefd5ccb.mock.pstmn.io
+  - url: https://40ebb7fb-afef-4781-8af5-c44607bdc062.mock.pstmn.io
+  - url: https://f6f8fff3-6207-44fe-9502-737fe375b56c.mock.pstmn.io
 
 paths:
   /customers:

@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "ee57b305-6748-43ca-8fa6-5a29a3956d42",
+		"_postman_id": "2d6aac50-3d83-4004-8b1d-db0adb495474",
 		"name": "Customers CHALLENGE",
 		"description": "# Customers CHALLENGE Collection\n\n## Summary\n\nThis collection was designed to test and validate responses from the example [**Customers API**](https://cs-demo.postman.co/workspace/c06eaed9-1cdc-4b3e-934b-3985817a71fc/api/cfd9425f-2989-4f81-87e0-bea133996be4?branch=main), which reads and updates customer-specific data within the Acme Co database.\n\nThis collection does not have any test scripts in any Tests tabs included herein. Users will need to add tests based on the directions provided in the _**Test Automation Success Sprint**_.\n\nOutside of the steps from the Success Sprint, feel free to add any other tests, pre-request scripts, etc. That said, we recommend keeping your workspace in a manageable state so you can continue to easily use it for future reference.\n\n## How to use this collection\n\nThis collection is meant to run demonstrate how test assertions can be used in automated tests in Postman. For demonstrative purposes, our work will be in conjunction with the [Customers API](https://cs-demo.postman.co/workspace/c06eaed9-1cdc-4b3e-934b-3985817a71fc/api/cfd9425f-2989-4f81-87e0-bea133996be4?branch=main) example, which is also available in the _**Test Automation Success Sprint**_ workspace (under APIs > Customers).\n\nYou will notice it is possible to add _Collection-level_ scripts, along with _Request-specific_ **Tests** and **Pre-request Scripts**.\n\nThese scripts are meant to either support or validate required behavior in this API during **manual collection** runs (Postman UI or CLI), **scheduled** **collection** runs, **monitor** runs, and **CI/CD pipeline** runs.\n\n## Scoping\n\nThe collections, folders, and requests in this workspace all have their own scopes, contained within the scope of the workspace itself.\n\nYou can view more information on leveraging scopes within Postman scripts in our [Learning Center documentation](https://learning.postman.com/docs/sending-requests/variables/#variable-scopes).\n\nA quick diagram on how variable scoping is leveraged in Postman can be seen here:\n\n<img src=\"https://content.pstmn.io/0db9807b-c108-4de1-89d0-229038d5a0a1/aW1hZ2UucG5n\" width=\"524\" height=\"395\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "23245044-ee57b305-6748-43ca-8fa6-5a29a3956d42"
+		"_uid": "29123778-2d6aac50-3d83-4004-8b1d-db0adb495474"
 	},
 	"item": [
 		{
@@ -51,7 +51,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "1d5a278c-299b-4170-8e62-d6f96d8f92a7"
+								"id": "51653f6f-5582-43af-aca6-b2a67a483833"
 							}
 						},
 						{
@@ -61,11 +61,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "1898d57a-46de-43f2-b2ab-6f40de7d0028"
+								"id": "fa27a270-4400-495f-9c97-9f2df4a23c63"
 							}
 						}
 					],
-					"id": "705a64e1-e8af-4a37-b3bc-5ba5f3f58bde",
+					"id": "d6e3c93a-9534-496c-b7cb-95f3678743e9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -93,7 +93,7 @@
 					},
 					"response": [
 						{
-							"id": "efd6e78d-18a4-4fae-bddd-d7c5846d5767",
+							"id": "625cbc91-4b19-42a2-866b-8571d72575a4",
 							"name": "Create customer",
 							"originalRequest": {
 								"method": "POST",
@@ -156,7 +156,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "73cd29eb-e061-4073-9096-2703914ae7b0"
+								"id": "9cc9d1cf-fc30-47fd-8176-75e204d36c22"
 							}
 						},
 						{
@@ -166,11 +166,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "2fb26db5-2b27-4cc8-acb4-19c2515ffa17"
+								"id": "7d581166-5318-496e-bebd-a66c6640e17a"
 							}
 						}
 					],
-					"id": "f3f50f7e-7bfe-4985-901b-54bf34c534b7",
+					"id": "1698089e-6073-40bc-b4c6-a0960c5f6a3e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -196,7 +196,7 @@
 					},
 					"response": [
 						{
-							"id": "f162b4dd-27f5-4e44-8176-81fd5fd13487",
+							"id": "2f9b4904-5d9f-462e-9996-daf275e392da",
 							"name": "Customer data",
 							"originalRequest": {
 								"method": "GET",
@@ -311,7 +311,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "3853df25-832a-47f7-949c-9ae23ecc1394"
+								"id": "6d147a1d-4458-40f3-938a-5105aeaaaf39"
 							}
 						},
 						{
@@ -321,11 +321,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "b8f6648a-da60-40b1-8705-87f3c05760e9"
+								"id": "3abe5639-3f24-4f49-8256-7f27a04c0306"
 							}
 						}
 					],
-					"id": "2f1fc7e8-6657-4ada-8951-8295d902a59a",
+					"id": "72b95fd1-e842-408f-8b8e-a3a12d42d269",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -354,7 +354,7 @@
 					},
 					"response": [
 						{
-							"id": "683a0064-3cc2-4a32-97f3-874fd99d0765",
+							"id": "37939c4a-63e0-4fac-b324-3404329cac62",
 							"name": "Update customer",
 							"originalRequest": {
 								"method": "PUT",
@@ -418,7 +418,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "0bf37195-796f-4dfd-a805-f0f4bab91fcc"
+								"id": "44c32f44-ae77-4a53-a26a-2c5624256469"
 							}
 						},
 						{
@@ -428,11 +428,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "5195ad69-e5b7-4b2d-abea-efcdd6ca02da"
+								"id": "1188b24d-7d8f-4bf0-8e5a-31c5b40b5cca"
 							}
 						}
 					],
-					"id": "5ad28a52-05dd-4fc0-925f-3040bed89af7",
+					"id": "2a24a622-a349-4be1-b485-3726649e7b8d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -458,7 +458,7 @@
 					},
 					"response": [
 						{
-							"id": "f8b7430b-fe9d-4f4f-9290-6312126b2d44",
+							"id": "7d752bdd-e9cf-4d3d-8a89-4fbcdeb85585",
 							"name": "Delete customer",
 							"originalRequest": {
 								"method": "DELETE",
@@ -498,7 +498,7 @@
 					]
 				}
 			],
-			"id": "0d257b40-e7cf-42db-b38a-e2a22dfd6135",
+			"id": "95639261-9c4f-4e35-9660-2c8d1abf56b1",
 			"description": "## Collection setup & runner\n\nYou should have already [forked](https://learning.postman.com/docs/collaborating-in-postman/using-version-control/forking-entities/) the **Customers CHALLENGE** collection to a workspace of your own\n\n### **Notes**\n\n- This collection leverages a [Mock server](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)\n- These collections use pre-defined example responses that the Mock Server is serving\n    \n\n### **Next steps**\n\n1. Send each request from the **CRUD Challenge** folder at least once\n    1. Review the example responses for each request\n    2. Confirm you receive expected responses based on pre-defined example responses\n2. In the Tests tab, add each of the following [test snippets](https://learning.postman.com/docs/writing-scripts/test-scripts/#using-snippets)\\* to each request in the CRUD Challenge folder and save\n    1. `Status Code: Code is 200`\n    2. `Status code name has string`\n    3. `Response time is less than 200ms`\n    4. `Response headers: Content-Type is present`\n3. Send each request and validate responses\n4. Part of this challenge is to update the tests to correctly validate expected responses\n    1. Ex: For a successful POST request, users would expect a `201 Created` HTTP response, as opposed to `200 OK`.\n5. When tests are passing, run your collection\n6. Go to Runs tab and review run data\n    \n\n### Expected results\n\n- All tests should indicate a “Success”\n    - POST calls should have 201\n    - GET/PUT calls should have 200\n    - DELETE calls should have 204\n- Collection runner runs without any errors and all tests pass"
 		}
 	],
@@ -530,7 +530,7 @@
 				"exec": [
 					""
 				],
-				"id": "8797e03a-5122-4f41-afc7-03feaddaa128"
+				"id": "b8906cc0-8bb4-4259-a0b6-9ec65a09ebea"
 			}
 		},
 		{
@@ -540,63 +540,63 @@
 				"exec": [
 					""
 				],
-				"id": "91e32e75-a642-4a74-ab11-a6546416b939"
+				"id": "f5bb51ec-fdb6-4b8a-b34c-13626690102f"
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "70c43352-e6a7-4685-9406-fbec0113faf5",
+			"id": "5d593052-705c-4700-99f3-048ed31394ba",
 			"key": "baseUrl",
 			"value": "https://ef10ec23-f5c6-4db6-9673-3056fefd5ccb.mock.pstmn.io"
 		},
 		{
-			"id": "9d50a026-eef0-41c3-9377-861907b44041",
+			"id": "97519700-784c-4424-88b5-0e9f7847c550",
 			"key": "randomUserData",
 			"value": ""
 		},
 		{
-			"id": "f0f21838-27ff-4458-a57e-f06806836b65",
+			"id": "aa0f84f2-883c-4c1c-a748-8d7d7ce4d1f3",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "51e14e5c-197e-4d91-b377-3951f8b4cdbd",
+			"id": "e43c5081-6c49-4314-b29b-20385f88627b",
 			"key": "firstName",
 			"value": ""
 		},
 		{
-			"id": "225a6368-bcfb-4655-ac1f-90238c7b5d10",
+			"id": "43caee48-a459-44ee-ae6b-58ae9027bd11",
 			"key": "lastName",
 			"value": ""
 		},
 		{
-			"id": "06c49da4-9091-47e7-90a3-88088b8892a6",
+			"id": "807cd4cd-1d0f-4270-a893-e17e9132aa79",
 			"key": "email",
 			"value": ""
 		},
 		{
-			"id": "4a987290-936e-4200-a636-085ae5fc89ea",
+			"id": "a9f6e148-4a67-4e50-bbd2-15245e72c02a",
 			"key": "dob",
 			"value": ""
 		},
 		{
-			"id": "918a0ecc-e5df-4dd4-a44c-1da7ef974b36",
+			"id": "1591bef0-52f8-4b8a-83a5-f7dd9f8fb7f0",
 			"key": "age",
 			"value": ""
 		},
 		{
-			"id": "c997bd62-9467-49b5-85a9-0d866d40911c",
+			"id": "0815790c-2534-478b-8346-54e936f5bd83",
 			"key": "cell",
 			"value": ""
 		},
 		{
-			"id": "ff429ac6-0ad4-4e2e-9f04-058f242a9f74",
+			"id": "9a0e57ef-157e-4261-a913-2a61ccf1b82a",
 			"key": "nationality",
 			"value": ""
 		},
 		{
-			"id": "dbf08cd0-2880-48ec-98be-342c1a0a43ed",
+			"id": "db9a9996-5300-414d-9f85-9e031e580190",
 			"key": "spendLevel",
 			"value": ""
 		}
