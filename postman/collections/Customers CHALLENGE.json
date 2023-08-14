@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "ee57b305-6748-43ca-8fa6-5a29a3956d42",
+		"_postman_id": "09a0a305-5263-42a8-9cbc-dfb6d31fb7f6",
 		"name": "Customers CHALLENGE",
 		"description": "# Customers CHALLENGE Collection\n\n## Summary\n\nThis collection was designed to test and validate responses from the example [**Customers API**](https://cs-demo.postman.co/workspace/c06eaed9-1cdc-4b3e-934b-3985817a71fc/api/cfd9425f-2989-4f81-87e0-bea133996be4?branch=main), which reads and updates customer-specific data within the Acme Co database.\n\nThis collection does not have any test scripts in any Tests tabs included herein. Users will need to add tests based on the directions provided in the _**Test Automation Success Sprint**_.\n\nOutside of the steps from the Success Sprint, feel free to add any other tests, pre-request scripts, etc. That said, we recommend keeping your workspace in a manageable state so you can continue to easily use it for future reference.\n\n## How to use this collection\n\nThis collection is meant to run demonstrate how test assertions can be used in automated tests in Postman. For demonstrative purposes, our work will be in conjunction with the [Customers API](https://cs-demo.postman.co/workspace/c06eaed9-1cdc-4b3e-934b-3985817a71fc/api/cfd9425f-2989-4f81-87e0-bea133996be4?branch=main) example, which is also available in the _**Test Automation Success Sprint**_ workspace (under APIs > Customers).\n\nYou will notice it is possible to add _Collection-level_ scripts, along with _Request-specific_ **Tests** and **Pre-request Scripts**.\n\nThese scripts are meant to either support or validate required behavior in this API during **manual collection** runs (Postman UI or CLI), **scheduled** **collection** runs, **monitor** runs, and **CI/CD pipeline** runs.\n\n## Scoping\n\nThe collections, folders, and requests in this workspace all have their own scopes, contained within the scope of the workspace itself.\n\nYou can view more information on leveraging scopes within Postman scripts in our [Learning Center documentation](https://learning.postman.com/docs/sending-requests/variables/#variable-scopes).\n\nA quick diagram on how variable scoping is leveraged in Postman can be seen here:\n\n<img src=\"https://content.pstmn.io/0db9807b-c108-4de1-89d0-229038d5a0a1/aW1hZ2UucG5n\" width=\"524\" height=\"395\">",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "23245044-ee57b305-6748-43ca-8fa6-5a29a3956d42"
+		"_uid": "29123778-09a0a305-5263-42a8-9cbc-dfb6d31fb7f6"
 	},
 	"item": [
 		{
@@ -51,7 +51,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "1d5a278c-299b-4170-8e62-d6f96d8f92a7"
+								"id": "d8fb1eda-9535-4aff-a553-df8d57df8bde"
 							}
 						},
 						{
@@ -61,11 +61,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "1898d57a-46de-43f2-b2ab-6f40de7d0028"
+								"id": "b919141a-0b17-44a8-8017-1c8883e27e0d"
 							}
 						}
 					],
-					"id": "705a64e1-e8af-4a37-b3bc-5ba5f3f58bde",
+					"id": "6edaf4eb-3e6f-430d-8b3d-03a79c7e242f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -93,7 +93,7 @@
 					},
 					"response": [
 						{
-							"id": "efd6e78d-18a4-4fae-bddd-d7c5846d5767",
+							"id": "41c6260b-fad7-4761-a2df-0c175f9b6af2",
 							"name": "Create customer",
 							"originalRequest": {
 								"method": "POST",
@@ -120,6 +120,7 @@
 							"status": "Created",
 							"code": 201,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -156,7 +157,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "73cd29eb-e061-4073-9096-2703914ae7b0"
+								"id": "bf3e6df7-3473-46c3-9be1-ce670f9f5c64"
 							}
 						},
 						{
@@ -166,11 +167,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "2fb26db5-2b27-4cc8-acb4-19c2515ffa17"
+								"id": "6346f1e1-c2ba-4581-a2f7-6d37210b3251"
 							}
 						}
 					],
-					"id": "f3f50f7e-7bfe-4985-901b-54bf34c534b7",
+					"id": "b44d87bd-f7a3-49ce-80d4-ea1845c2ca4c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -196,7 +197,7 @@
 					},
 					"response": [
 						{
-							"id": "f162b4dd-27f5-4e44-8176-81fd5fd13487",
+							"id": "b38d7bee-b92a-409c-a0a7-1733f1381536",
 							"name": "Customer data",
 							"originalRequest": {
 								"method": "GET",
@@ -215,6 +216,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Date",
@@ -311,7 +313,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "3853df25-832a-47f7-949c-9ae23ecc1394"
+								"id": "a3b1ee5d-cb35-48dc-a627-18ece3d8490a"
 							}
 						},
 						{
@@ -321,11 +323,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "b8f6648a-da60-40b1-8705-87f3c05760e9"
+								"id": "0ea77531-52ca-4f31-8f10-7fa642fc350d"
 							}
 						}
 					],
-					"id": "2f1fc7e8-6657-4ada-8951-8295d902a59a",
+					"id": "14ad8a15-8caf-45e3-bd6e-4fae9e489c94",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -354,7 +356,7 @@
 					},
 					"response": [
 						{
-							"id": "683a0064-3cc2-4a32-97f3-874fd99d0765",
+							"id": "9c21faa5-3ae0-42ed-a636-2e7112177583",
 							"name": "Update customer",
 							"originalRequest": {
 								"method": "PUT",
@@ -382,6 +384,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -418,7 +421,7 @@
 									"});"
 								],
 								"type": "text/javascript",
-								"id": "0bf37195-796f-4dfd-a805-f0f4bab91fcc"
+								"id": "addf7041-8974-4df1-8c4e-e331f06b083c"
 							}
 						},
 						{
@@ -428,11 +431,11 @@
 									""
 								],
 								"type": "text/javascript",
-								"id": "5195ad69-e5b7-4b2d-abea-efcdd6ca02da"
+								"id": "400564b5-3ad2-4187-94db-644bc862c9a8"
 							}
 						}
 					],
-					"id": "5ad28a52-05dd-4fc0-925f-3040bed89af7",
+					"id": "deeb56e9-eca6-4124-9337-aedfdf154e6a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -458,7 +461,7 @@
 					},
 					"response": [
 						{
-							"id": "f8b7430b-fe9d-4f4f-9290-6312126b2d44",
+							"id": "bcd63ec5-49b6-4b8f-b00d-d196a62f5a1d",
 							"name": "Delete customer",
 							"originalRequest": {
 								"method": "DELETE",
@@ -483,6 +486,7 @@
 							"status": "No Content",
 							"code": 204,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -498,7 +502,7 @@
 					]
 				}
 			],
-			"id": "0d257b40-e7cf-42db-b38a-e2a22dfd6135",
+			"id": "e8e31991-1538-4c85-9d55-f4c73516ab4f",
 			"description": "## Collection setup & runner\n\nYou should have already [forked](https://learning.postman.com/docs/collaborating-in-postman/using-version-control/forking-entities/) the **Customers CHALLENGE** collection to a workspace of your own\n\n### **Notes**\n\n- This collection leverages a [Mock server](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)\n- These collections use pre-defined example responses that the Mock Server is serving\n    \n\n### **Next steps**\n\n1. Send each request from the **CRUD Challenge** folder at least once\n    1. Review the example responses for each request\n    2. Confirm you receive expected responses based on pre-defined example responses\n2. In the Tests tab, add each of the following [test snippets](https://learning.postman.com/docs/writing-scripts/test-scripts/#using-snippets)\\* to each request in the CRUD Challenge folder and save\n    1. `Status Code: Code is 200`\n    2. `Status code name has string`\n    3. `Response time is less than 200ms`\n    4. `Response headers: Content-Type is present`\n3. Send each request and validate responses\n4. Part of this challenge is to update the tests to correctly validate expected responses\n    1. Ex: For a successful POST request, users would expect a `201 Created` HTTP response, as opposed to `200 OK`.\n5. When tests are passing, run your collection\n6. Go to Runs tab and review run data\n    \n\n### Expected results\n\n- All tests should indicate a “Success”\n    - POST calls should have 201\n    - GET/PUT calls should have 200\n    - DELETE calls should have 204\n- Collection runner runs without any errors and all tests pass"
 		}
 	],
@@ -530,7 +534,7 @@
 				"exec": [
 					""
 				],
-				"id": "8797e03a-5122-4f41-afc7-03feaddaa128"
+				"id": "e4f382c0-7097-4732-9663-84923efa0cb6"
 			}
 		},
 		{
@@ -540,7 +544,7 @@
 				"exec": [
 					""
 				],
-				"id": "91e32e75-a642-4a74-ab11-a6546416b939"
+				"id": "c1fe398f-aaf5-4543-801a-f7fd1541e2ae"
 			}
 		}
 	],
