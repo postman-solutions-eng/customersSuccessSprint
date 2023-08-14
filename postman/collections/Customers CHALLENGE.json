@@ -550,57 +550,57 @@
 	],
 	"variable": [
 		{
-			"id": "70c43352-e6a7-4685-9406-fbec0113faf5",
+			"id": "5d593052-705c-4700-99f3-048ed31394ba",
 			"key": "baseUrl",
 			"value": "https://ef10ec23-f5c6-4db6-9673-3056fefd5ccb.mock.pstmn.io"
 		},
 		{
-			"id": "9d50a026-eef0-41c3-9377-861907b44041",
+			"id": "97519700-784c-4424-88b5-0e9f7847c550",
 			"key": "randomUserData",
 			"value": ""
 		},
 		{
-			"id": "f0f21838-27ff-4458-a57e-f06806836b65",
+			"id": "aa0f84f2-883c-4c1c-a748-8d7d7ce4d1f3",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "51e14e5c-197e-4d91-b377-3951f8b4cdbd",
+			"id": "e43c5081-6c49-4314-b29b-20385f88627b",
 			"key": "firstName",
 			"value": ""
 		},
 		{
-			"id": "225a6368-bcfb-4655-ac1f-90238c7b5d10",
+			"id": "43caee48-a459-44ee-ae6b-58ae9027bd11",
 			"key": "lastName",
 			"value": ""
 		},
 		{
-			"id": "06c49da4-9091-47e7-90a3-88088b8892a6",
+			"id": "807cd4cd-1d0f-4270-a893-e17e9132aa79",
 			"key": "email",
 			"value": ""
 		},
 		{
-			"id": "4a987290-936e-4200-a636-085ae5fc89ea",
+			"id": "a9f6e148-4a67-4e50-bbd2-15245e72c02a",
 			"key": "dob",
 			"value": ""
 		},
 		{
-			"id": "918a0ecc-e5df-4dd4-a44c-1da7ef974b36",
+			"id": "1591bef0-52f8-4b8a-83a5-f7dd9f8fb7f0",
 			"key": "age",
 			"value": ""
 		},
 		{
-			"id": "c997bd62-9467-49b5-85a9-0d866d40911c",
+			"id": "0815790c-2534-478b-8346-54e936f5bd83",
 			"key": "cell",
 			"value": ""
 		},
 		{
-			"id": "ff429ac6-0ad4-4e2e-9f04-058f242a9f74",
+			"id": "9a0e57ef-157e-4261-a913-2a61ccf1b82a",
 			"key": "nationality",
 			"value": ""
 		},
 		{
-			"id": "dbf08cd0-2880-48ec-98be-342c1a0a43ed",
+			"id": "db9a9996-5300-414d-9f85-9e031e580190",
 			"key": "spendLevel",
 			"value": ""
 		}
