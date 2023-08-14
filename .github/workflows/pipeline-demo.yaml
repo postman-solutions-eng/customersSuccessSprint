@@ -25,9 +25,9 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "${{ github.workspace }}/postman/collections/Customers CHALLENGE.json" --integration-id "144392-${{ github.run_id }}"
+          postman collection run "${{ github.workspace }}/postman/collections/Customers CHALLENGE.json" --integration-id "146213-${{ github.run_id }}"
           # Lint your API using Postman CLI
-          postman api lint cfd9425f-2989-4f81-87e0-bea133996be4 --integration-id 144392
+          postman api lint ca3253e1-23be-4147-91e9-69747c1a1c85 --integration-id 146213
       ### === ### CONTINUE WITH REST OF CLI SCRIPT ### === ###
       
       - uses: azure/login@v1
